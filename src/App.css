@@ -186,6 +186,7 @@ span {
   }
   .container2 {
     width: 100%;
+    padding-bottom: 0px;
   }
 
   .contentGrid {
@@ -235,6 +236,11 @@ span {
   .secondHeader {
     font-size: 5vw;
     line-height: 8vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+    align-self: center;
   }
 
   .imgCont {
@@ -258,5 +264,15 @@ span {
 
   .submit {
     font-size: 5vw;
+  }
+
+  .formHeader {
+    font-size: 4.5vw;
+  }
+
+  .formCont {
+    margin-top: 8vw;
+    padding-bottom: 5vw;
+    padding-top: 2vw;
   }
 }
