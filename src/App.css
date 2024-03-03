@@ -230,9 +230,11 @@ span {
 
   .txtHeader2 {
     font-size: 4vw;
+    line-height: 6vw;
   }
   .secondHeader {
-    font-size: 4.5vw;
+    font-size: 6vw;
+    line-height: 8vw;
   }
 
   .imgCont {
@@ -246,9 +248,14 @@ span {
 
   .content {
     font-size: 3vw;
+    line-height: 4.5vw;
   }
 
   input {
+    font-size: 5vw;
+  }
+
+  .submit {
     font-size: 5vw;
   }
 }
