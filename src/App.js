@@ -4,6 +4,7 @@ import pic1 from "./images/idan1.png";
 import pic2 from "./images/idan2.png";
 import pic3 from "./images/idan3.png";
 import spinner from "./images/Spinner.gif";
+import telPic from "./images/tel.png";
 import { useState, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -43,6 +44,7 @@ function App() {
           <br />
           GROSS מעניקה אמנת שירות חתומה לכל לקוח.
         </h3>
+
         <div className="superGrid">
           <div className="contentGrid">
             <div id="one" className="elementContainer">
@@ -81,6 +83,12 @@ function App() {
                 ובסלולאר, ניהול מו״מ עם גורמי חוץ.
               </p>
             </div>
+          </div>
+        </div>
+        <div className="telCont">
+          <a href="tel:0525747020">052-5747020</a>
+          <div className="telImgCont">
+            <img src={telPic} width="100%" />
           </div>
         </div>
         <div className="formCont">

@@ -180,6 +180,31 @@ span {
   margin-top: -0.5vw;
 }
 
+.telImgCont {
+  width: 4.5vw;
+  margin-top: 0.8vw;
+}
+
+a {
+  color: #397c8f;
+  font-weight: 400;
+  font-size: 3vw;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+.telCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 2.5vw;
+  gap: 2vw;
+}
+
 @media only screen and (max-width: 700px) {
   .container {
     overflow-x: hidden;
@@ -233,6 +258,7 @@ span {
   .txtHeader2 {
     font-size: 5vw;
     line-height: 6vw;
+    padding: 5vw;
   }
   .secondHeader {
     font-size: 5vw;
@@ -275,5 +301,18 @@ span {
     margin-top: 8vw;
     padding-bottom: 5vw;
     padding-top: 2vw;
+  }
+
+  .telCont {
+    margin-top: 8vw;
+  }
+
+  a {
+    font-size: 5vw;
+  }
+
+  .telImgCont {
+    margin-top: 2vw;
+    width: 6vw;
   }
 }
